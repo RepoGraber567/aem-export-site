@@ -1,0 +1,6 @@
+{
+  "name": "AEM",
+  "description": "Enterprise-grade agricultural exports specializing in premium, high-volume strawberry cultivation and cold-chain logistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
