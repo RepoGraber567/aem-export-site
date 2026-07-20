@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Droplets, Ruler, Clock, Thermometer, Snowflake, Package } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from './LanguageContext';
 
 export function Specs() {
   const { t } = useLanguage();

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from './LanguageContext';
 
 export function Contact() {
   const { t } = useLanguage();

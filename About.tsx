@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { ShieldCheck, Award, FileCheck, CircleDollarSign, TrendingUp, Settings } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from './LanguageContext';
 
 export function About() {
   const { t } = useLanguage();
@@ -143,4 +143,3 @@ export function About() {
     </section>
   );
 }
-

@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Globe, ShieldCheck, Ship } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from './LanguageContext';
 
 export function Hero() {
   const { t } = useLanguage();
@@ -119,4 +119,3 @@ export function Hero() {
     </section>
   );
 }
-
