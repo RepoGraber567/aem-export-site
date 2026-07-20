@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Leaf, Globe } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from './LanguageContext';
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -81,4 +81,3 @@ export function Navigation() {
     </motion.nav>
   );
 }
-

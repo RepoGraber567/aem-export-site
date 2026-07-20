@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Box, Snowflake, Ship, ShieldCheck } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from './LanguageContext';
 
 export function Logistics() {
   const { t } = useLanguage();
@@ -97,4 +97,3 @@ export function Logistics() {
     </section>
   );
 }
-
