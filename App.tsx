@@ -1,11 +1,11 @@
-import { Navigation } from './components/Navigation';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Specs } from './components/Specs';
-import { Logistics } from './components/Logistics';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
-import { LanguageProvider, useLanguage } from './context/LanguageContext';
+import { Navigation } from './Navigation';
+import { Hero } from './Hero';
+import { About } from './About';
+import { Specs } from './Specs';
+import { Logistics } from './Logistics';
+import { Contact } from './Contact';
+import { Footer } from './Footer';
+import { LanguageProvider, useLanguage } from './LanguageContext';
 
 function PageContent() {
   const { isTransitioning } = useLanguage();
@@ -34,4 +34,3 @@ export default function App() {
     </LanguageProvider>
   );
 }
-
